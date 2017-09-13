@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1E8D731F69E0EF006A7FE1 /* UIShadowableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E8D721F69E0EF006A7FE1 /* UIShadowableView.swift */; };
+		BE1E8D751F69E128006A7FE1 /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E8D741F69E128006A7FE1 /* UIGradientView.swift */; };
+		BE1E8D771F69E23B006A7FE1 /* UIMultilineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E8D761F69E23B006A7FE1 /* UIMultilineButton.swift */; };
 		BE1FEB7D1F69C13400C24499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1FEB7C1F69C13400C24499 /* AppDelegate.swift */; };
 		BE1FEB7F1F69C13400C24499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1FEB7E1F69C13400C24499 /* ViewController.swift */; };
 		BE1FEB821F69C13400C24499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1FEB801F69C13400C24499 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE1E8D721F69E0EF006A7FE1 /* UIShadowableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowableView.swift; sourceTree = "<group>"; };
+		BE1E8D741F69E128006A7FE1 /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
+		BE1E8D761F69E23B006A7FE1 /* UIMultilineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMultilineButton.swift; sourceTree = "<group>"; };
 		BE1FEB791F69C13400C24499 /* AulaIBs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaIBs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1FEB7C1F69C13400C24499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE1FEB7E1F69C13400C24499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE1E8D711F69E0D6006A7FE1 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FEB8E1F69C17900C24499 /* UICornerableView.swift */,
+				BE1E8D721F69E0EF006A7FE1 /* UIShadowableView.swift */,
+				BE1E8D741F69E128006A7FE1 /* UIGradientView.swift */,
+				BE1E8D761F69E23B006A7FE1 /* UIMultilineButton.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
 		BE1FEB701F69C13400C24499 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +73,13 @@
 		BE1FEB7B1F69C13400C24499 /* AulaIBs */ = {
 			isa = PBXGroup;
 			children = (
+				BE1E8D711F69E0D6006A7FE1 /* Designables */,
 				BE1FEB7C1F69C13400C24499 /* AppDelegate.swift */,
 				BE1FEB7E1F69C13400C24499 /* ViewController.swift */,
 				BE1FEB801F69C13400C24499 /* Main.storyboard */,
 				BE1FEB831F69C13400C24499 /* Assets.xcassets */,
 				BE1FEB851F69C13500C24499 /* LaunchScreen.storyboard */,
 				BE1FEB881F69C13500C24499 /* Info.plist */,
-				BE1FEB8E1F69C17900C24499 /* UICornerableView.swift */,
 			);
 			path = AulaIBs;
 			sourceTree = "<group>";
@@ -139,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1E8D731F69E0EF006A7FE1 /* UIShadowableView.swift in Sources */,
+				BE1E8D771F69E23B006A7FE1 /* UIMultilineButton.swift in Sources */,
 				BE1FEB7F1F69C13400C24499 /* ViewController.swift in Sources */,
 				BE1FEB7D1F69C13400C24499 /* AppDelegate.swift in Sources */,
+				BE1E8D751F69E128006A7FE1 /* UIGradientView.swift in Sources */,
 				BE1FEB8F1F69C17900C24499 /* UICornerableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +325,7 @@
 				BE1FEB8D1F69C13500C24499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
