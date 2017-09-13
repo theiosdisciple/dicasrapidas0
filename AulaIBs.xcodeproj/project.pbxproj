@@ -22,6 +22,7 @@
 		BE1E8D721F69E0EF006A7FE1 /* UIShadowableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowableView.swift; sourceTree = "<group>"; };
 		BE1E8D741F69E128006A7FE1 /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
 		BE1E8D761F69E23B006A7FE1 /* UIMultilineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMultilineButton.swift; sourceTree = "<group>"; };
+		BE1E8D781F69E369006A7FE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE1FEB791F69C13400C24499 /* AulaIBs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaIBs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1FEB7C1F69C13400C24499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE1FEB7E1F69C13400C24499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		BE1FEB701F69C13400C24499 = {
 			isa = PBXGroup;
 			children = (
+				BE1E8D781F69E369006A7FE1 /* README.md */,
 				BE1FEB7B1F69C13400C24499 /* AulaIBs */,
 				BE1FEB7A1F69C13400C24499 /* Products */,
 			);
